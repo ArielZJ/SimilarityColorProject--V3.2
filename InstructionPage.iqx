@@ -1,5 +1,6 @@
 ﻿<page start>
-^^ Welcome to the experiment !!
+^Welcome to the experiment !
+^^This will take about 15 minutes
 </page>
 
 <page end>
@@ -35,9 +36,12 @@ Next Button: Space Button
 
 ********************************************************************
 ********************************************************************
+
+********************************************************************
+********************************************************************
 Operation Instruction Page 1:
 <text Instruction_Page_1>
-/ items = ("At the start of the experiment, focus on the cross at the centre
+/ items = ("Throughout the experiment, focus on the cross at the centre
 of the screen.
 2 circles will flash out quickly somewhere on the screen")
 / hposition = 50%
@@ -56,9 +60,12 @@ of the screen.
 </video>
 
 <text Instruction_Page_2>
-/ items = ("In this page,please decide the dissimilarity level of 2 circles flashed before.
-0 represents most similarity
-7 represents most dissimilarity
+/ items = ("On this page, please decide the dissimilarity level of the colour of the 2 circles flashed previously. 
+Ignore any size differences.
+
+0 => most similar colour (least dissimilar colour)
+7 => most dissimilar colour (least similar colour)
+
 After choosing, move your cursor back to the centre and click the green box to continue")
 / hposition = 50%
 / vposition = 70%

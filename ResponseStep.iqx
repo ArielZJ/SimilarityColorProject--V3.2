@@ -49,13 +49,6 @@
 / position = (50%,50%)
 </text>
 
-<text you_press_resource>
-/ items = ("You pressed 'a'","You pressed 's'","You pressed 'd'","You pressed 'f'","You pressed 'j'","You pressed 'k'","You pressed 'l'","You pressed ';'")
-/ color = yellow
-/ txbgcolor = (127, 127, 127)
-/ position = (50%,10%)
-</text>
-
 <shape centersquare>
 / shape = rectangle
 / size = (5%, 5%)
@@ -82,6 +75,22 @@
 / fontstyle = ("Arial", 2.8%, true)
 / position = (50%,85%)
 / txbgcolor = (127,127,127)
+</text>
+
+<text similar_reminder>
+/ items = ("Similar")
+/ fontstyle = ("Arial", 2.5%, true)
+/ txbgcolor = (127,127,127)
+/ position = (35,50)
+/ color = (white)
+</text>
+
+<text dissimilar_reminder>
+/ items = ("Dissimilar")
+/ fontstyle = ("Arial", 2.5%, true)
+/ txbgcolor = (127,127,127)
+/ position = (65,50)
+/ color = (white)
 </text>
 
 <text p_response_instructions>

@@ -33,3 +33,13 @@
 / hposition = expressions.a_4
 / vposition = expressions.b_4
 </shape>
+
+***************************************************************************************************
+***************************************************************************************************
+<htmlpage consent>
+/ file = "consent_form.html"
+</htmlpage>
+
+<block consent>
+/ preinstructions = (consent)
+</block>
