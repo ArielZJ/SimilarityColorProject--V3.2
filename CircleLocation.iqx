@@ -1,4 +1,6 @@
-﻿<values>
+﻿
+** r_P determines the scaling size of the peripheral stimulus relative to the central stimulus
+<values>
 /x = 1px * display.getpixelsx(50,1)
 /y = 1px * display.getpixelsy(50,1)
 /r_F = 1px * display.getpixelsx(2,1)

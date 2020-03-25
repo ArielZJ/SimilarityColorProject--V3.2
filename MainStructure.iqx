@@ -12,6 +12,7 @@
 / file = "InstructionPage.iqx"
 / file = "PracticeTrial.iqx"
 / file = "calibration.iqx"
+/ file = "FollowUp.iqx"
 </include>
 
 <values>
@@ -325,6 +326,8 @@
 ]
 </trial>
 
+** the 'timeout' variable above is what controls the SOA. Note you have to set the practice trial one separately
+
 <trial peripheral_response>
 / stimulusframes = [
 	1  = response1d, response2d, response3d, response4d, response5d, response6d, response7d, response8d, response_blank,
@@ -369,14 +372,16 @@ highC_instruction,centersquare,notice_centre_mouse,process_notice]
 </block>
 
 
+** temporarily edited for testing
 <expt Test>
 / preinstructions = (start)
 / postinstructions = (end)
-/ blocks = [1 = consent; 2 = calibration; 3 = Instruction; 4-12 = Throughout_practice; 13-255 = Throughout]
+/ blocks = [1 = consent; 2 = calibration; 3 = Instruction; 4-12 = Throughout_practice; 13-255 = Throughout; 256 = followup]
 </expt>
 
 <data>
 / columns=[subject,values.trial_number,values.Cross_position,values.Circle_1,values.Position_1,values.Color_1,
-values.Circle_2,values.Position_2,values.Color_2,values.p_confidence,values.response_time]
+values.Circle_2,values.Position_2,values.Color_2,values.p_confidence,values.response_time,
+checkboxes.acuityq.response, checkboxes.colourq.response, checkboxes.stategy.response,textbox.colour_response.response,textbox.strategy_text.response]
 / separatefiles = true
 </data>

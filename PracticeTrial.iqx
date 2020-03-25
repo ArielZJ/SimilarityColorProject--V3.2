@@ -150,6 +150,9 @@ If you are ready, please press SPACE button to start the experiment.")
 ]
 </trial>
 
+** the 'timeout' variable above is what controls the SOA. Note you have to set the main trial one separately
+
+
 <trial peripheral_response_practice>
 / stimulusframes = [
 	1  = response1d, response2d, response3d, response4d, response5d, response6d, response7d, response8d, response_blank,
