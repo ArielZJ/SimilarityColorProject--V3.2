@@ -1,4 +1,9 @@
-﻿<textbox strategy_text>
+﻿<textbox free_response>
+/caption = "Any other comments?"
+/required = false
+</textbox>
+
+<textbox strategy_text>
 /caption = "If you selected 'another strategy', please describe your strategy. Otherwise, skip this question."
 /required = false
 </textbox>
@@ -29,7 +34,7 @@
 ** ask them if they have any vision impairments
 <surveypage followup_page>
 /caption = "Please answer the following questions:"
-/questions = [1 = acuityq; 2 = colourq; 3 = colour_response; 4 = strategy; 5 = strategy_text]
+/questions = [1 = acuityq; 2 = colourq; 3 = colour_response; 4 = strategy; 5 = strategy_text; 6 = free_response]
 </surveypage>
 
 ** run the follow up survey
