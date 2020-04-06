@@ -1,5 +1,7 @@
-﻿
+﻿** r_F sets the radius of the inner circle to 2% of screen size, thus 4% circumference
 ** r_P determines the scaling size of the peripheral stimulus relative to the central stimulus
+	this is currently set to 3x the r_F, thus 6% radius or 12% circumference
+** radius_F and radius_P set how far away the stimuli are from the fixation cross. Currently set to 8% and 50-8=42% of screen
 <values>
 /x = 1px * display.getpixelsx(50,1)
 /y = 1px * display.getpixelsy(50,1)
